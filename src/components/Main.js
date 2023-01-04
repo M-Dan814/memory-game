@@ -35,7 +35,8 @@ const Main = () => {
                 onClick={onClickImage}
                 src={card.img}
                 alt={card.name}
-                width="400"
+                width="250"
+                height="150"
               />
               <span>{card.name}</span>
             </div>
