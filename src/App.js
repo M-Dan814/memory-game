@@ -1,10 +1,16 @@
-import React, { Component } from 'react';
-
+import React, { useEffect } from "react";
+import { Footer } from "./components/Footer";
+import { Main } from "./components/Main";
 
 function App() {
+  useEffect(() => {
+    document.title = "Memory Game"
+  })
   return (
-    <div className="App">
-    </div>
+    <>
+      <Main />
+      <Footer />
+    </>
   );
 }
 

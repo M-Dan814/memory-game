@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const Header = (props) => {
-  const [score, setScore] = useState(0);
-  const [highScore, setHighScore] = useState(0);
-
   return (
     <div className="header">
       <h1 className="title">Memory game</h1>
@@ -13,8 +10,8 @@ const Header = (props) => {
           score! Good Luck!
         </span>
         <div className="scores">
-          <span>Current score: {score}</span>
-          <span>Highest Score: {highScore}</span>
+          <span>Current score: {props.scored}</span>
+          <span>Highest Score: {props.highScored}</span>
         </div>
       </div>
     </div>
