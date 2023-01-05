@@ -15,12 +15,21 @@ const Main = () => {
     if (clicked.indexOf(val) < 0) {
       setClicked([...clicked, val]);
       setScore(score + 1);
-      return;
+      if (score >= 16) {
+        alert("Congratulations! You have acheived the highest score possible!");
+        setClicked([]);
+        setHighScore(score);
+        setScore(0);
+        return;
+      }
+      return
     }
+
     setClicked([]);
     if (score > highScore) {
       setHighScore(score);
     }
+    alert("Oops! You have clicked on that one already! Your score: " + score);
     setScore(0);
   };
 
