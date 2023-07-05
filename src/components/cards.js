@@ -1,67 +1,67 @@
 const cards = [
   {
     name: "Hijikata",
-    img: require("./images/Hijikata.jpg"),
+    img: require("./images/Hijikata.webp"),
   },
   {
     name: "Kamui",
-    img: require("./images/Kamui.jpg"),
+    img: require("./images/Kamui.webp"),
   },
   {
     name: "Mutsu",
-    img: require("./images/Mutsu.jpg"),
+    img: require("./images/Mutsu.webp"),
   },
   {
     name: "Nobume",
-    img: require("./images/Nobume.jpg"),
+    img: require("./images/Nobume.webp"),
   },
   {
     name: "Otae",
-    img: require("./images/Otae.jpg"),
+    img: require("./images/Otae.webp"),
   },
   {
     name: "Sakamoto",
-    img: require("./images/Sakamoto.jpeg"),
+    img: require("./images/Sakamoto.webp"),
   },
   {
     name: "Sarutobi",
-    img: require("./images/Sarutobi.jpg"),
+    img: require("./images/Sarutobi.webp"),
   },
   {
     name: "Takasugi",
-    img: require("./images/Takasugi.jpg"),
+    img: require("./images/Takasugi.webp"),
   },
   {
     name: "Kondo",
-    img: require("./images/Kondo.jpg"),
+    img: require("./images/Kondo.webp"),
   },
   {
     name: "Sogo",
-    img: require("./images/Sogo.jpg"),
+    img: require("./images/Sogo.webp"),
   },
   {
     name: "Tama",
-    img: require("./images/Tama.jpg"),
+    img: require("./images/Tama.webp"),
   },
   {
     name: "Shogun",
-    img: require("./images/Shogun.jpg"),
+    img: require("./images/Shogun.webp"),
   },
   {
     name: "Zenzo",
-    img: require("./images/Zenzo.jpg"),
+    img: require("./images/Zenzo.webp"),
   },
   {
     name: "Utsuro",
-    img: require("./images/Utsuro.jpg"),
+    img: require("./images/Utsuro.webp"),
   },
   {
     name: "Shinpachi",
-    img: require("./images/Shinpachi.jpg"),
+    img: require("./images/Shinpachi.webp"),
   },
   {
     name: "Kagura",
-    img: require("./images/Kagura.jpg"),
+    img: require("./images/Kagura.webp"),
   },
 ];
 

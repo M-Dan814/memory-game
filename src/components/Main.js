@@ -39,7 +39,7 @@ const Main = () => {
       <div className="cards">
         {cards.map((card) => {
           return (
-            <div className="card" value={card.name}>
+            <div key={card.name} className="card" value={card.name}>
               <img
                 onClick={onClickImage}
                 src={card.img}
